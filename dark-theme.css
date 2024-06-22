@@ -7,15 +7,15 @@ body {
     background-color: #343a40 !important;
 }
 
-.content {
+.content, .card, .list-group-item {
     background-color: #292a2d !important;
 }
 
-.synonyms .read-more-link {
+.synonyms .read-more-link, .noUi-tooltip {
 	background-color: #17a2b8 !important;
 }
 
-.list-group-item-action, .b-tooltipped, .text-link-gray, .synonyms .read-more-link, [class*="text-gray-dark-"], .btn-o-4 {
+.list-group-item-action, .b-tooltipped, .text-link-gray, .synonyms .read-more-link, [class*="text-gray-dark-"]:not([class*="7"]), .btn-o-4 {
     color: #fff !important;
 }
 
