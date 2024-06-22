@@ -7,7 +7,7 @@ body {
     background-color: #343a40 !important;
 }
 
-.content, .card, .list-group-item {
+.content, .card, .list-group-item, .dropdown-menu {
     background-color: #292a2d !important;
 }
 
@@ -15,7 +15,7 @@ body {
 	background-color: #17a2b8 !important;
 }
 
-.list-group-item-action, .b-tooltipped, .text-link-gray, .synonyms .read-more-link, [class*="text-gray-dark-"]:not([class*="7"]), .btn-o-4 {
+.list-group-item-action, .b-tooltipped, .text-link-gray, .synonyms .read-more-link, [class*="text-gray-dark-"]:not([class*="7"]), .btn-o-4, .dropdown-menu {
     color: #fff !important;
 }
 
