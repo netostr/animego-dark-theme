@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "animego",
+  "description": "Adding a dark theme to AnimeGo",
+  "version": "1.0",
+  "action": {
+    "default_icon": "animego.png"
+  },  
+  "content_scripts": [
+   {
+     "matches": ["https://animego.org/anime/*"],
+     "css": ["dark-theme.css"]
+   }
+ ]
+}
+
