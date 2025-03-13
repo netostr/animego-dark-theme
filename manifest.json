@@ -1,17 +1,20 @@
 {
-  "manifest_version": 3,
-  "name": "animego",
-  "description": "Adding a dark theme to AnimeGo",
-  "version": "1.0",
-  "action": {
-    "default_icon": "animego.png"
-  },  
-  "content_scripts": [
-   {
-     "matches": ["https://animego.club/*"],
-     "css": ["dark-theme.css"],
-	 "js": ["delete-theme.js"]
-   }
- ]
+	"manifest_version": 3,
+	"name": "animego",
+	"description": "Adding a dark theme to AnimeGo",
+	"version": "1.0",
+	"action": {
+		"default_icon": "animego.png"
+	},  
+	"content_scripts": [
+		{
+		"matches": [ "*://*/*" ],
+		"include_globs": [
+			"https://animego.*/*"
+		],
+		"css": ["dark-theme.css"],
+		"js": ["delete-theme.js"]
+		}
+	]
 }
 
